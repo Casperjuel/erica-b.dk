@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h2 className={styles.intro}>Hi there 👋, I'm</h2>
+        <h2 className={styles.intro}>Hi there 👋, I&apos;m</h2>
         <h1 className={styles.title}>Line Erica B.</h1>
         <p className={styles.description}>
           food, people, travel, interior, kids
