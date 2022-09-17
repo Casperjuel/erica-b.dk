@@ -4,6 +4,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 600px) {
+    background-position: 40% 0;
+  }
 }
 
 .main {
@@ -20,6 +24,11 @@
   justify-content: center;
   text-align: left;
   align-items: flex-start;
+
+  @media screen and (max-width: 600px) {
+    margin: 0;
+    justify-content: flex-start;
+  }
 }
 
 .title a {
