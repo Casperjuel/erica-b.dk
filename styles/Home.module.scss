@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
 
   @media screen and (max-width: 600px) {
     background-position: 40% 0;
@@ -52,6 +53,7 @@
 .description {
   text-align: center;
   text-shadow: 0 0 40px #000;
+  color: white;
 }
 
 .description {
@@ -77,6 +79,7 @@
       padding-bottom: 3px;
       border-bottom: 1px solid white;
       transition: all 200ms ease;
+      color: white;
 
       &:hover {
         padding-bottom: 10px;
