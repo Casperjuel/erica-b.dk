@@ -1,6 +1,5 @@
 .container {
   padding: 0 2rem;
-  background-image: url("/line.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,4 +85,13 @@
       }
     }
   }
+}
+
+.sketch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
